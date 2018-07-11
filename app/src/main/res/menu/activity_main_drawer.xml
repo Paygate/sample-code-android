@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Vault">
+            <menu>
+                <item
+                    android:id="@+id/vcreate"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Create Vault" />
+                <item
+                    android:id="@+id/vlook"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="LookUp Vault" />
+                <item
+                    android:id="@+id/vdelete"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Delete Vault" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="FollowUpRequests">
+        <menu>
+            <item
+                android:id="@+id/query"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Query" />
+            <item
+                android:id="@+id/rvoid"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Void" />
+            <item
+                android:id="@+id/st"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Settlement" />
+            <item
+                android:id="@+id/refund"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Refund" />
+        </menu>
+    </item>
+
+    <item android:title="Payment">
+        <menu>
+            <item
+                android:id="@+id/card"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Card Payment" />
+            <item
+                android:id="@+id/web"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Web Payment" />
+            <item
+                android:id="@+id/token"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Token Payment" />
+        </menu>
+    </item>
+
+</menu>
